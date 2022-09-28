@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  font-family: Montserrat,sans-serif;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+.navbar-azul {
+  background-color: #071d41;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  align-content: center;
+  height: 35px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.conteudo-nav {
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  align-content: center;
+}
+
+.lista-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.lista-nav li {
+  color: #f1f1f1;
+}
+
+.site {
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.traço {
+  height: 20px;
+  width: 1px;
+  border-right: 1px solid rgba(248, 247, 247, 0.938);
+  margin: 0 15px 0 15px;
+}
+
+.navbar-preta {
+  padding-top: 4px;
+  background-color: #313131;
+  height: 30px;
+  width: 100%;
+
+  text-transform: uppercase;
+  font-size: 8px;
+}
+
+.lista-nav.preta li > a {
+  color: #e0e0e0;
+}
+
+.navbar-verde {
+display: flex;
+  padding-top: 4px;
+  background-color:#157c87;
+  height: 90px;
+  width: 97%;
+  align-items: center;
+  align-content: center;
+  padding-left: 40px;
+  
+}
+
+.navbar-verde .conteudo-nav-sizu {
+  color: #f1f1f1;
+}
+
+.conteudo-nav-sizu-text {
+  padding-left: 50px;
+}
+
+.conteudo-nav-sizu-name {
+  padding-left: 10px;
+}
+
+.sisu-text {
+  color: #f1f1f1;
+  font-size: 3.4em;
+  font-weight: 600;
+}
+
+.sisu-full-name {
+  color: #f1f1f1;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.conteudo-nav-sizu {
+  align-items: center;
+  align-content: center;
+}
+
+.conteudo {
+  background-color: #f1f1f1;
+  padding: 90px;
+  padding-top: 10px;
+}
+
+.titulo1 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #496491;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.info {
+    color: #444649;
+    font-family: Montserrat,sans-serif;
+}
+
+.img_universidade {
+    display: flex;
+    justify-content: center;
+}
+.img_universidade1 {
+    padding: 30px;
+}
+
+.img_chapeu {
+    display: flex;
+    justify-content: center;
+}
+.img_chapeu1 {
+    padding: 30px;
+}
+
+select {
+    height: 36px;
+    width: 570px;
+    padding: 5px;
+
+    border-radius: 5px;
+    border-color: rgb(145, 143, 143);
+    border-width: 1px;
+
+    box-shadow: 5px 0px 20px 0px #25252733;
+    font-size: 16px;
+}
+
+.legenda {
+    color: #157c87;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instituto {
+display: flex;
+padding: 60px;
+padding-top: 10px;
+}
+
+.curso {
+    display: flex;
+    padding: 60px;
+    padding-top: 10px;
+}
+
+.grau { 
+    padding-bottom: 50px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+button {
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #157c87;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.rodape {
+    min-height: 300px;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    position: relative;
+}
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #3a3a3a;
+
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sisu-footer {
+    font-size: 60px;
+    font-weight: 600;
+}

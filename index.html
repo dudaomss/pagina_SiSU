@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SiSU - Sistema de seleção Unificada</title>
+  </head>
+
+  <body>
+    <div class="navbar-azul">
+      <div class="conteudo-nav">
+        <ul class="lista-nav">
+          <li>
+            <a class="site"><b>gov.br</b></a>
+          </li>
+          <li class="traço"></li>
+          <li><a style="color: red">Coronavírus (covid-19)</a></li>
+          <li class="traço"></li>
+          <li><a>Acesso à informação</a></li>
+          <li class="traço"></li>
+          <li><a>Participe</a></li>
+          <li class="traço"></li>
+          <li><a>Legislação</a></li>
+          <li class="traço"></li>
+          <li><a>Órgãos do Governo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="navbar-preta">
+      <div class="conteudo-nav">
+        <ul class="lista-nav preta">
+          <li><a>Ir para o conteudo</a></li>
+          <li class="traço"></li>
+          <li><a>Ir para o menu</a></li>
+          <li class="traço"></li>
+          <li><a>Ir para o rodapé</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="navbar-verde">
+      <div class="conteudo-nav-sizu-text">
+        <a class="sisu-text">SiSU</a>
+      </div>
+      <div class="conteudo-nav-sizu-name">
+        <a class="sisu-full-name">Sistema de Seleção Unificada</a>
+      </div>
+    </div>
+
+    <div class="conteudo">
+      <h2 class="titulo1">lista de selecionados na chamada regular</h2>
+      <p class="info">
+        Utilize a busca <b>informando todos os campos,</b> e veja a listagem, em
+        ordem alfabética, dos selecionados em cada curso. A lista é única e
+        compreende selecionados em ampla concorrência e ações afirmativas.
+      </p>
+      <div class="img_universidade">
+        <img
+          src="img/universidade.png"
+          class="img_universidade1"
+          alt="Imagem universidade"
+        />
+      </div>
+
+      <div class="form1">
+        <div class="instituto">
+          <form>
+            <p class="legenda">
+              Instituição <span style="color: rgb(141, 45, 45)">*</span>
+            </p>
+            <select>
+              <option value="none" disabled selected>
+                Ex: UFMG ou Universidade Federal de Minas Gerais
+              </option>
+              <option value="IFMG">
+                IFMG - Instituto Federal de Educação Ciência e Tecnologia de
+                Minas Gerais
+              </option>
+            </select>
+          </form>
+        </div>
+
+        <form>
+          <p class="legenda">
+            Local de oferta <span style="color: rgb(141, 45, 45)">*</span>
+          </p>
+          <select>
+            <option value="none" disabled selected>
+              Ex: Campus Belo Horizonte
+            </option>
+            <option value="Bambui">Campus Bambuí</option>
+            <option value="Betim">Campus Betim</option>
+            <option value="Congonhas">Campus Congonhas</option>
+            <option value="Governador">Campus Governador Valadares</option>
+            <option value="Bambui">Campus Sabará</option>
+          </select>
+        </form>
+      </div>
+
+      <div class="img_chapeu">
+        <img
+          src="img/capelo.png"
+          class="img_chapeu1"
+          alt="Chapéu de formatura"
+        />
+      </div>
+
+      <div class="form2">
+        <div class="curso">
+          <form>
+            <p class="legenda">
+              Curso <span style="color: rgb(141, 45, 45)">*</span>
+            </p>
+            <select>
+              <option value="none" disabled selected>Ex: Direito</option>
+              <option value="engenharia">Engenharia</option>
+              <option value="engenharia">Sistemas de informação</option>
+              <option value="engenharia">Administração</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="grau">
+          <form>
+            <p class="legenda">
+              Grau e turno <span style="color: rgb(141, 45, 45)">*</span>
+            </p>
+            <select>
+              <option value="none" disabled selected>
+                Ex: Bacharelado ou Noturno
+              </option>
+              <option value="ben">Bacharelado e Noturno</option>
+              <option value="bem">Bacharelado e Matutino</option>
+              <option value="bei">Bacharelado e Integral</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="botao">
+          <button type="submit">Pesquisar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <div class="rodape">
+    <footer>
+      <p class="sisu-footer">SiSU</p>
+      <br />
+      <p>2º Processo seletivo de 2022</p>
+    </footer>
+  </div>
+</html>
